@@ -5,12 +5,3 @@ FROM ubuntu
 CMD echo "vmr"
 COPY ./index.html/user/share/nignx/html
 
-
-jenkins file 
-pipeline {
- agent any 
- stages{
- stages('clone'){
- steps{
- }
-
